@@ -1,0 +1,132 @@
+.contact-container {
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+  
+  .left-section {
+    width: 50%;
+    background: #fff;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .brand-name {
+    font-size: 48px;
+    font-weight: bold;
+    color: #000;
+  }
+  
+  .contact-info p {
+    margin: 10px 0;
+    font-size: 14px;
+    color: #a8a5a5;
+  }
+  
+  .contact-info a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+  }
+  
+  .right-section {
+    width: 50%;
+    background: #000;
+    color: #fff;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .contact-title {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-row {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input, 
+  .form-group textarea {
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    color: #fff;
+    font-size: 14px;
+  }
+  
+  .form-group input::placeholder,
+  .form-group textarea::placeholder {
+    color: #888;
+  }
+  
+  .radio-group {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .radio-group label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .send-button {
+    background: #fff;
+    color: #000;
+    padding: 12px;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .send-button:hover {
+    opacity: 0.8;
+  }
+  
+  @media (max-width: 768px) {
+    .contact-container {
+      flex-direction: column;
+    }
+  
+    .left-section, .right-section {
+      width: 100%;
+      padding: 30px;
+    }
+  
+    .brand-name, .contact-title {
+      font-size: 36px;
+    }
+  
+    .form-row {
+      flex-direction: column;
+    }
+  }
+  
