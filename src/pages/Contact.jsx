@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <div className="contact-container">
       <div className="left-section">
-        <h1 className="brand-name">ETHOS MEDIA</h1>
+        <h1 className="brand-name">CHESNEY INDIA</h1>
         <div className="contact-info">
           <p><strong>MAIL</strong></p>
           <p><a href="mailto:contact@ethosmediaagency.com">enquiry@chesneyindia.com</a></p>

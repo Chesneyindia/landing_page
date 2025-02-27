@@ -3,7 +3,7 @@ import "./services.css";
 
 const sections = [
   {
-    title: "CAPTATION",
+    title: "Installation",
     description:
       "We specialize in capturing content that connects. Our goal is to create compelling content that performs across various platforms.",
     services: [
@@ -23,6 +23,21 @@ const sections = [
     image: "https://plus.unsplash.com/premium_photo-1683865776032-07bf70b0add1?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // Replace with actual image path
   },
   // Add more sections as needed
+  {
+    title: "PRODUCTION",
+    description:
+      "Our production team ensures high-quality visuals that bring your brand to life with stunning effects and dynamic storytelling.",
+    services: ["FILMING", "EDITING", "MOTION GRAPHICS", "COLOR GRADING"],
+    image: "https://plus.unsplash.com/premium_photo-1683865776032-07bf70b0add1?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // Replace with actual image path
+  },
+  {
+    title: "PRODUCTION",
+    description:
+      "Our production team ensures high-quality visuals that bring your brand to life with stunning effects and dynamic storytelling.",
+    services: ["FILMING", "EDITING", "MOTION GRAPHICS", "COLOR GRADING"],
+    image: "https://plus.unsplash.com/premium_photo-1683865776032-07bf70b0add1?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // Replace with actual image path
+  },
+
 ];
 
 const AlternateSections = () => {
